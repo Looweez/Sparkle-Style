@@ -9,12 +9,14 @@ public class BedroomController : MonoBehaviour
     [SerializeField] private Button wardrobeButton;
     [SerializeField] private Button computerButton;
     [SerializeField] private Button craftingButton;
+    [SerializeField] private Button exitBedroomButton;
     
     void Start()
     {
         wardrobeButton.onClick.AddListener(OnWardrobeButtonClicked);
         computerButton.onClick.AddListener(OnComputerButtonClicked);
         craftingButton.onClick.AddListener(OnCraftingButtonClicked);
+        exitBedroomButton.onClick.AddListener(OnExitBedroomButtonClicked);
     }
 
     private void OnWardrobeButtonClicked()
@@ -30,5 +32,10 @@ public class BedroomController : MonoBehaviour
     private void OnCraftingButtonClicked()
     {
         SceneManager.LoadScene("Crafting");
+    }
+    
+    private void OnExitBedroomButtonClicked()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
