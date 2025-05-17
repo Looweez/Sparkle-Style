@@ -17,4 +17,6 @@ public class WardrobeController : MonoBehaviour
     {
         SceneManager.LoadScene("Bedroom");
     }
+    
+    
 }
