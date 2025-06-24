@@ -10,6 +10,9 @@ public class BedroomController : MonoBehaviour
     [SerializeField] private Button computerButton;
     [SerializeField] private Button craftingButton;
     [SerializeField] private Button exitBedroomButton;
+    [SerializeField] private Button tutorialButton;
+    
+    public Dialogue tutorialDialogue;
     
     void Start()
     {
@@ -17,6 +20,7 @@ public class BedroomController : MonoBehaviour
         computerButton.onClick.AddListener(OnComputerButtonClicked);
         craftingButton.onClick.AddListener(OnCraftingButtonClicked);
         exitBedroomButton.onClick.AddListener(OnExitBedroomButtonClicked);
+        tutorialButton.onClick.AddListener(OnTutorialButtonClicked);
     }
 
     private void OnWardrobeButtonClicked()
@@ -37,5 +41,14 @@ public class BedroomController : MonoBehaviour
     private void OnExitBedroomButtonClicked()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    private void OnTutorialButtonClicked()
+    {
+        tutorialButton.interactable = false;
+        if (tutorialDialogue != null)
+        {
+            DialogueManager.instance.StartDialogue(tutorialDialogue);
+        }
     }
 }

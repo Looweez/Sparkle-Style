@@ -11,7 +11,6 @@ public class WardrobeCategorySwitcher : MonoBehaviour
     public GameObject fullbodyPanel;
     public GameObject outerwearPanel;
     public GameObject hairPanel;
-    public GameObject accessoriesPanel;
 
     public void ShowCategory(string category)
     {
@@ -22,6 +21,10 @@ public class WardrobeCategorySwitcher : MonoBehaviour
         fullbodyPanel.SetActive(category == "Fullbody");
         outerwearPanel.SetActive(category == "Outerwear");
         hairPanel.SetActive(category == "Hair");
-        accessoriesPanel.SetActive(category == "Accessories");
+    }
+
+    private void Start()
+    {
+        ShowCategory("Tops");
     }
 }
