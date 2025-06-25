@@ -103,12 +103,12 @@ TextureImporter:
       name: girly bottoms_0
       rect:
         serializedVersion: 2
-        x: 382
-        y: 189
-        width: 336
-        height: 964
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 20
+        width: 900
+        height: 1808
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fb0ae16cd43db6545b1ac9be25cf2bb3
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girly bottoms_0: 3006553681285399257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

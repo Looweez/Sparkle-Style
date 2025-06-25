@@ -103,12 +103,12 @@ TextureImporter:
       name: default shirt_0
       rect:
         serializedVersion: 2
-        x: 399
-        y: 1032
-        width: 249
-        height: 434
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 20
+        width: 900
+        height: 1808
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 129b9f03931a18f47b3ac3a36af38dee
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      default shirt_0: -5822048730965290822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

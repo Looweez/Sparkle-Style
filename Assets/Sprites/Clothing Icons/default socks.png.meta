@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 447795f550810a94b85ae9b756ade327
+guid: 28c20c6268e96334babe6a49e504417f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1185014880405221554
-    second: bare base_0
+      213: 4154292116155526734
+    second: default socks_0
+  - first:
+      213: -8868799459383968749
+    second: default socks_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bare base_0
+      name: default socks_0
       rect:
         serializedVersion: 2
-        x: 285
+        x: 308
         y: 20
-        width: 518
-        height: 1808
+        width: 434
+        height: 330
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b0fa1851c4027010800000000000000
-      internalID: 1185014880405221554
+      spriteID: e4ee7a45ba207a930800000000000000
+      internalID: 4154292116155526734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: default socks_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 20
+        width: 114
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cfd3f61e1bbe480800000000000000
+      internalID: -8868799459383968749
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ea9bc9e0beb69544595835da88c4be48
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bare base_0: 1185014880405221554
+      default socks_0: 4154292116155526734
+      default socks_1: -8868799459383968749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

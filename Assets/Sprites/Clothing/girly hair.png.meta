@@ -112,12 +112,12 @@ TextureImporter:
       name: girly hair_0
       rect:
         serializedVersion: 2
-        x: 197
-        y: 1259
-        width: 840
-        height: 582
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 20
+        width: 900
+        height: 1829
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 74
         height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,7 +161,7 @@ TextureImporter:
         width: 276
         height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,7 +183,7 @@ TextureImporter:
         width: 196
         height: 401
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9397726a67a55b04c9d3fcf056916c1d
     internalID: 0
     vertices: []
     indices: 
@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girly hair_0: 1095456523780872183
+      girly hair_1: -1765979259156989186
+      girly hair_2: -3059174265069338111
+      girly hair_3: -2287589037341208726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

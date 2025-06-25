@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 447795f550810a94b85ae9b756ade327
+guid: 5c8ba6b3a9f49f141846514d946199f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1185014880405221554
-    second: bare base_0
+      213: -5822048730965290822
+    second: default shirt_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bare base_0
+      name: default shirt_0
       rect:
         serializedVersion: 2
-        x: 285
-        y: 20
-        width: 518
-        height: 1808
+        x: 300
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b0fa1851c4027010800000000000000
-      internalID: 1185014880405221554
+      spriteID: ab0dcc5968de33fa0800000000000000
+      internalID: -5822048730965290822
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 129b9f03931a18f47b3ac3a36af38dee
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bare base_0: 1185014880405221554
+      default shirt_0: -5822048730965290822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 447795f550810a94b85ae9b756ade327
+guid: c5d51762a9c6d9f4d80c4524f7932797
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1185014880405221554
-    second: bare base_0
+      213: -2493488422345901146
+    second: girly shoes_0
+  - first:
+      213: -4880418143589534592
+    second: girly shoes_1
+  - first:
+      213: -574756530625497374
+    second: girly shoes_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bare base_0
+      name: girly shoes_0
       rect:
         serializedVersion: 2
-        x: 285
-        y: 20
-        width: 518
-        height: 1808
+        x: 298
+        y: 0
+        width: 451
+        height: 305
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b0fa1851c4027010800000000000000
-      internalID: 1185014880405221554
+      spriteID: 6abf58ead79556dd0800000000000000
+      internalID: -2493488422345901146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girly shoes_1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 17
+        width: 122
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08479f35e85454cb0800000000000000
+      internalID: -4880418143589534592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girly shoes_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 14
+        width: 225
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e63bb70bfd0608f0800000000000000
+      internalID: -574756530625497374
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fb757a43ffbe6f54c8c2102f9252cc52
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bare base_0: 1185014880405221554
+      girly shoes_0: -2493488422345901146
+      girly shoes_1: -4880418143589534592
+      girly shoes_2: -574756530625497374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
