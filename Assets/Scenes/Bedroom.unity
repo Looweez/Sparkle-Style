@@ -520,7 +520,7 @@ MonoBehaviour:
     - character:
         name: Mimi
         icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: Click your wardrobe to see all the clothes you've collected so far.
+      line: Click your wardrobe to dress up and see all your clothes.
     - character:
         name: Mimi
         icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
@@ -528,8 +528,7 @@ MonoBehaviour:
     - character:
         name: Mimi
         icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: If you'd like to see the tutorial again, click on my bed in the corner!
-        ^w^
+      line: If you'd like to see the tutorial again, click on me in the corner! ^w^
 --- !u!1 &383193853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,7 +2719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -873, y: 468}
+  m_AnchoredPosition: {x: -900, y: 480}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2126004060

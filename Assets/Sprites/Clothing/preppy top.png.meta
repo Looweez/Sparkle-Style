@@ -103,12 +103,12 @@ TextureImporter:
       name: preppy top_0
       rect:
         serializedVersion: 2
-        x: 284
-        y: 950
-        width: 438
-        height: 568
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 20
+        width: 900
+        height: 1808
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7c2bbb904694ea649a70c82d379268ed
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      preppy top_0: -1906962296004256955
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

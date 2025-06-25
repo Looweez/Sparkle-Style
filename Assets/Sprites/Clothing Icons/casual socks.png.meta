@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9c71770d7150cae4daad460e19efa99d
+guid: 3a77ede0a177811459e280328cbacb14
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -106,12 +106,12 @@ TextureImporter:
       name: casual socks_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 20
-        width: 900
-        height: 1808
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 343
+        y: 19
+        width: 224
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -133,7 +133,7 @@ TextureImporter:
         width: 112
         height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: de309b61dee37f0488018dd71ff59089
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 

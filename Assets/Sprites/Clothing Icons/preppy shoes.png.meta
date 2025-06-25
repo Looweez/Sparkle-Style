@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 9c71770d7150cae4daad460e19efa99d
+guid: a1e74617335043145860e76d892b8c8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2048323656884792700
-    second: casual socks_0
+      213: 8730834058193814877
+    second: preppy shoes_0
   - first:
-      213: 1780918188052341996
-    second: casual socks_1
+      213: -6356001777505041164
+    second: preppy shoes_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: casual socks_0
+      name: preppy shoes_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 20
-        width: 900
-        height: 1808
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 339
+        y: 21
+        width: 230
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4825a5e8c74e293e0800000000000000
-      internalID: -2048323656884792700
+      spriteID: d55468761572a2970800000000000000
+      internalID: 8730834058193814877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: casual socks_1
+      name: preppy shoes_1
       rect:
         serializedVersion: 2
-        x: 587
-        y: 21
+        x: 590
+        y: 15
         width: 112
-        height: 261
+        height: 161
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce464e408a717b810800000000000000
-      internalID: 1780918188052341996
+      spriteID: 4f48f041f02fac7a0800000000000000
+      internalID: -6356001777505041164
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: de309b61dee37f0488018dd71ff59089
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      casual socks_0: -2048323656884792700
-      casual socks_1: 1780918188052341996
+      preppy shoes_0: 8730834058193814877
+      preppy shoes_1: -6356001777505041164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

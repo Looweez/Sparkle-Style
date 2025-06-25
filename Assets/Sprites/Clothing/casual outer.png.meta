@@ -103,12 +103,12 @@ TextureImporter:
       name: casual outer_0
       rect:
         serializedVersion: 2
-        x: 275
-        y: 902
-        width: 475
-        height: 618
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 20
+        width: 900
+        height: 1808
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dfd47d3c5caa8fb4c939ea9b637a41da
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      casual outer_0: -2385464942089062253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

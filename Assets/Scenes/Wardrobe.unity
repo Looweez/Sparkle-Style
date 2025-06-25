@@ -659,6 +659,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &91519827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1078,6 +1079,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &112652668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1712,6 +1714,7 @@ MonoBehaviour:
   category: Fullbody
   spriteToApply: {fileID: -6473373494592968623, guid: 78c27ab50fc9f214ab52a36472d62f7d, type: 3}
   highlight: {fileID: 1565463967}
+  genre: 0
 --- !u!114 &189067941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1937,6 +1940,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &198111019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2851,6 +2855,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &251847158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3077,6 +3082,7 @@ MonoBehaviour:
   category: Socks
   spriteToApply: {fileID: 991843389429586170, guid: fbf9af1c08c56454b8c3793e93d62f27, type: 3}
   highlight: {fileID: 1232108028}
+  genre: 6
 --- !u!114 &285802732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3499,6 +3505,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &329946791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3921,6 +3928,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &373121564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4069,8 +4077,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
   category: Bottom
-  spriteToApply: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  spriteToApply: {fileID: 7805494796573962170, guid: ce2c196bda89b644c99198d405b3048a, type: 3}
   highlight: {fileID: 0}
+  genre: 4
 --- !u!114 &401702464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4147,7 +4156,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  m_Sprite: {fileID: 7805494796573962170, guid: 29fe8bf81b7faea45b22488e3581b927, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5255,6 +5264,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &488428011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5405,6 +5415,7 @@ MonoBehaviour:
   category: Shoes
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &498495724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5556,6 +5567,7 @@ MonoBehaviour:
   category: Outerwear
   spriteToApply: {fileID: 5331653093159799950, guid: 480f6fa0b14fc654aa168e2aad3b921b, type: 3}
   highlight: {fileID: 1641314661}
+  genre: 0
 --- !u!114 &543200450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5917,6 +5929,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &573060866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6067,6 +6080,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &581660047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6217,6 +6231,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &596084135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6367,6 +6382,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &619421171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7272,6 +7288,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &688819925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8532,6 +8549,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &815219393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8817,8 +8835,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
   category: Top
-  spriteToApply: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  spriteToApply: {fileID: -1547086828364476971, guid: 66e629da19b1b2049aa03bb9614c4a31, type: 3}
   highlight: {fileID: 900070976}
+  genre: 4
 --- !u!114 &845286258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8895,7 +8914,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  m_Sprite: {fileID: -1547086828364476971, guid: 5095e2ce75d898142b6c16b2c4904cfc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9392,6 +9411,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -5822048730965290822, guid: ed6bd22382b80dc40a33fb67baa3da04, type: 3}
   highlight: {fileID: 1820312615}
+  genre: 0
 --- !u!114 &910097776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9668,8 +9688,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
   category: Top
-  spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  spriteToApply: {fileID: -1906962296004256955, guid: 0c9dd6f1ef944b2439fb614d8b370484, type: 3}
   highlight: {fileID: 283509427}
+  genre: 6
 --- !u!114 &924550144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9739,14 +9760,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.57169807, g: 0.60952336, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  m_Sprite: {fileID: -1906962296004256955, guid: 82da3781d9f1ef14e9e62a88e600b4d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9820,6 +9841,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &930415463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10106,6 +10128,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &947487739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10256,6 +10279,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &957008280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10542,6 +10566,7 @@ MonoBehaviour:
   category: Bottom
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &962447726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10813,6 +10838,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1006409297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11099,6 +11125,7 @@ MonoBehaviour:
   category: Shoes
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1027032312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11559,6 +11586,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1087689748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11706,9 +11734,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
-  category: Top
-  spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  category: Socks
+  spriteToApply: {fileID: -2048323656884792700, guid: 9c71770d7150cae4daad460e19efa99d, type: 3}
   highlight: {fileID: 0}
+  genre: 4
 --- !u!114 &1088641092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11778,14 +11807,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.57169807, g: 0.60952336, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  m_Sprite: {fileID: -2048323656884792700, guid: 3a77ede0a177811459e280328cbacb14, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13668,6 +13697,7 @@ MonoBehaviour:
   category: Bottom
   spriteToApply: {fileID: 3006553681285399257, guid: 48342784a4f9b8f42b91ef8295a84e78, type: 3}
   highlight: {fileID: 1108383518}
+  genre: 0
 --- !u!114 &1291754253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14659,8 +14689,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
   category: Shoes
-  spriteToApply: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  spriteToApply: {fileID: 8730834058193814877, guid: 230351bdb7e580e4699d30004603cea5, type: 3}
   highlight: {fileID: 0}
+  genre: 6
 --- !u!114 &1410442176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14737,7 +14768,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  m_Sprite: {fileID: 8730834058193814877, guid: a1e74617335043145860e76d892b8c8c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15161,6 +15192,7 @@ MonoBehaviour:
   category: Hair
   spriteToApply: {fileID: 1095456523780872183, guid: c9bd544c70c331e47815a7da26abf168, type: 3}
   highlight: {fileID: 864147303}
+  genre: 0
 --- !u!114 &1456682673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15308,9 +15340,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
-  category: Top
-  spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  category: Outerwear
+  spriteToApply: {fileID: -2385464942089062253, guid: a5eaead3ffa0968498497eaf2e53ebbb, type: 3}
   highlight: {fileID: 0}
+  genre: 4
 --- !u!114 &1464922629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15387,7 +15420,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  m_Sprite: {fileID: -2385464942089062253, guid: ce74bbd62bb189f4cb8fa8d876e7df0a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15462,6 +15495,7 @@ MonoBehaviour:
   category: Hair
   spriteToApply: {fileID: -8288580596763916947, guid: 7dd4959158626904599a6e24f45b32f7, type: 3}
   highlight: {fileID: 1800400022}
+  genre: 0
 --- !u!114 &1470216753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15613,6 +15647,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -8734938250849496633, guid: 5fde50ffece339347b09826b4e825457, type: 3}
   highlight: {fileID: 631604126}
+  genre: 0
 --- !u!114 &1476103049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16037,6 +16072,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1497866383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16186,8 +16222,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
   category: Shoes
-  spriteToApply: {fileID: -4880418143589534592, guid: 2e439a4fe845a004292f1d303d1d9bc2, type: 3}
+  spriteToApply: {fileID: -2493488422345901146, guid: 2e439a4fe845a004292f1d303d1d9bc2, type: 3}
   highlight: {fileID: 149270631}
+  genre: 0
 --- !u!114 &1522448608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16264,7 +16301,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4880418143589534592, guid: 2e439a4fe845a004292f1d303d1d9bc2, type: 3}
+  m_Sprite: {fileID: -574756530625497374, guid: c5d51762a9c6d9f4d80c4524f7932797, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16318,7 +16355,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -869, y: 464}
+  m_AnchoredPosition: {x: -900, y: 480}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531862971
@@ -16459,6 +16496,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1550694037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17686,8 +17724,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
   category: Shoes
-  spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  spriteToApply: {fileID: -6880032107376677298, guid: f005e44470ea579479f65b9197965178, type: 3}
   highlight: {fileID: 0}
+  genre: 4
 --- !u!114 &1646440118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17764,7 +17803,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  m_Sprite: {fileID: -6880032107376677298, guid: 110b3e5d476999a4fbccc2eaec0b3a31, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18104,6 +18143,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1689943857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18339,6 +18379,7 @@ MonoBehaviour:
   category: Hair
   spriteToApply: {fileID: -3609547836450863686, guid: 01d667ea296a123438ef6c31e9eccc90, type: 3}
   highlight: {fileID: 1375345909}
+  genre: 6
 --- !u!114 &1700433879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18927,6 +18968,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1761703753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19214,6 +19256,7 @@ MonoBehaviour:
   category: Socks
   spriteToApply: {fileID: 4117413375183694866, guid: 37b7a79c16895774e825e53b72eb50ae, type: 3}
   highlight: {fileID: 195899110}
+  genre: 0
 --- !u!114 &1791170971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19647,6 +19690,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1864658909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19898,6 +19942,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1888018379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20048,6 +20093,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1902663796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20195,9 +20241,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
-  category: Top
-  spriteToApply: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  category: Outerwear
+  spriteToApply: {fileID: 8577932209304374050, guid: 17f2ceca76a6ba44fa509e05dcd313da, type: 3}
   highlight: {fileID: 0}
+  genre: 6
 --- !u!114 &1911253822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20274,7 +20321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  m_Sprite: {fileID: 8577932209304374050, guid: 9392ba46b3f1df4458fe67536f577a59, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20349,6 +20396,7 @@ MonoBehaviour:
   category: Socks
   spriteToApply: {fileID: 4154292116155526734, guid: a1ba8a602cdf64f439359a8e7b2703ca, type: 3}
   highlight: {fileID: 765701025}
+  genre: 0
 --- !u!114 &1921111928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20707,6 +20755,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &1980233601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20857,6 +20906,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &2016129583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21007,6 +21057,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &2065012819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21238,6 +21289,7 @@ MonoBehaviour:
   category: Bottom
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &2073606384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21388,6 +21440,7 @@ MonoBehaviour:
   category: Top
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &2075080497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21681,9 +21734,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
-  category: Top
-  spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  category: Fullbody
+  spriteToApply: {fileID: 1811031950952162594, guid: 14cc42108ccab2545948d98c4aa7512e, type: 3}
   highlight: {fileID: 1615387678}
+  genre: 6
 --- !u!114 &2103393065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21760,7 +21814,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  m_Sprite: {fileID: 1811031950952162594, guid: 34ef778313118224da48c28012efefbf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21832,8 +21886,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1243874730}
   category: Bottom
-  spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  spriteToApply: {fileID: -8243387434858066259, guid: 09ab5e642f9d4ac449848395307bb852, type: 3}
   highlight: {fileID: 0}
+  genre: 6
 --- !u!114 &2109210115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21903,14 +21958,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.57169807, g: 0.60952336, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
+  m_Sprite: {fileID: -8243387434858066259, guid: c4e54a1e385a4f7408db02a0a7b18c84, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21984,6 +22039,7 @@ MonoBehaviour:
   category: Shoes
   spriteToApply: {fileID: -3636867238823582840, guid: fda3c0f1a1f65da4097ec55cc9096c5e, type: 3}
   highlight: {fileID: 0}
+  genre: 0
 --- !u!114 &2110023936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22271,6 +22327,7 @@ MonoBehaviour:
   category: Bottom
   spriteToApply: {fileID: 1540806031979480048, guid: f7bcbd1115bbda1468f81a30b5b1b6cd, type: 3}
   highlight: {fileID: 1445312732}
+  genre: 0
 --- !u!114 &2130529703
 MonoBehaviour:
   m_ObjectHideFlags: 0

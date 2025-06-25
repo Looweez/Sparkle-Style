@@ -10,10 +10,12 @@ public class WardrobeController : MonoBehaviour
     [SerializeField] private Button exitWardrobeButton;
     [SerializeField] private Button removeAllButton;
     
+    
     void Start()
     {
         exitWardrobeButton.onClick.AddListener(OnExitWardrobeButtonClicked);
         removeAllButton.onClick.AddListener(OnRemoveAllButtonClicked);
+        
     }
 
     private void OnExitWardrobeButtonClicked()
@@ -36,6 +38,7 @@ public class WardrobeController : MonoBehaviour
         RemoveAllHighlights();
         dressUpManager.ApplyDefaultOutfit();
     }
+    
     
     
 }
