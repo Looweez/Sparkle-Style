@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7b806c4d902cfb24c918b6c37b5d3de8
+guid: 66e629da19b1b2049aa03bb9614c4a31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3105530602250253690
-    second: Contests__0
+      213: -1547086828364476971
+    second: casual top_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Contests__0
+      name: casual top_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 399
+        y: 1081
+        width: 314
+        height: 402
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ac4cdfe50f6e4d0800000000000000
-      internalID: -3105530602250253690
+      spriteID: 5dd46a6f9b4a78ae0800000000000000
+      internalID: -1547086828364476971
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Contests__0: -3105530602250253690
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

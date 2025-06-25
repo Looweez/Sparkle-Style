@@ -8,9 +8,6 @@ TextureImporter:
   - first:
       213: -4880418143589534592
     second: girly shoes_1
-  - first:
-      213: -574756530625497374
-    second: girly shoes_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,12 +106,12 @@ TextureImporter:
       name: girly shoes_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 0
-        width: 900
-        height: 1828
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 344
+        y: 14
+        width: 225
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -136,7 +133,7 @@ TextureImporter:
         width: 122
         height: 223
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,33 +146,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: girly shoes_2
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 14
-        width: 225
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e63bb70bfd0608f0800000000000000
-      internalID: -574756530625497374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fb757a43ffbe6f54c8c2102f9252cc52
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -184,10 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      girly shoes_0: -2493488422345901146
-      girly shoes_1: -4880418143589534592
-      girly shoes_2: -574756530625497374
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

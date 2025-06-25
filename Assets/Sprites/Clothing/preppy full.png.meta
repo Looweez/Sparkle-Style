@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7b806c4d902cfb24c918b6c37b5d3de8
+guid: 14cc42108ccab2545948d98c4aa7512e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3105530602250253690
-    second: Contests__0
+      213: 1811031950952162594
+    second: preppy full_0
+  - first:
+      213: 4719370395009587914
+    second: preppy full_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Contests__0
+      name: preppy full_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 282
+        y: 903
+        width: 244
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ac4cdfe50f6e4d0800000000000000
-      internalID: -3105530602250253690
+      spriteID: 225e261d6f3122910800000000000000
+      internalID: 1811031950952162594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preppy full_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 896
+        width: 211
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca9a06be529e7140800000000000000
+      internalID: 4719370395009587914
       vertices: []
       indices: 
       edges: []
@@ -134,8 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Contests__0: -3105530602250253690
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

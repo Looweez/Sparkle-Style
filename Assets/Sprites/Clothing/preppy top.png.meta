@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7b806c4d902cfb24c918b6c37b5d3de8
+guid: 0c9dd6f1ef944b2439fb614d8b370484
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3105530602250253690
-    second: Contests__0
+      213: -1906962296004256955
+    second: preppy top_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Contests__0
+      name: preppy top_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 284
+        y: 950
+        width: 438
+        height: 568
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ac4cdfe50f6e4d0800000000000000
-      internalID: -3105530602250253690
+      spriteID: 54b5a9235eb1985e0800000000000000
+      internalID: -1906962296004256955
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Contests__0: -3105530602250253690
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

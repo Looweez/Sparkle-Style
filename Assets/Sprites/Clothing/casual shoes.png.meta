@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7b806c4d902cfb24c918b6c37b5d3de8
+guid: f005e44470ea579479f65b9197965178
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3105530602250253690
-    second: Contests__0
+      213: -6880032107376677298
+    second: casual shoes_0
+  - first:
+      213: 101816918185107677
+    second: casual shoes_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Contests__0
+      name: casual shoes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 335
+        y: 8
+        width: 244
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68ac4cdfe50f6e4d0800000000000000
-      internalID: -3105530602250253690
+      spriteID: e4ee78410473580a0800000000000000
+      internalID: -6880032107376677298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casual shoes_1
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 6
+        width: 115
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd06c8892f9b96100800000000000000
+      internalID: 101816918185107677
       vertices: []
       indices: 
       edges: []
@@ -134,8 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Contests__0: -3105530602250253690
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
