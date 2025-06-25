@@ -1,11 +1,38 @@
+using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ContestManager : MonoBehaviour
 {
     public ClothingContest currentContest;
     public DressUpManager dressUpManager;
+    public TextMeshProUGUI resultText;
 
-    public int CalculateScore()
+    void Start()
+    {
+        OutfitData outfit = PlayerOutfitManager.instance.GetOutfit();
+        dressUpManager.topSlot.sprite = outfit.top;
+        dressUpManager.bottomSlot.sprite = outfit.bottom;
+        dressUpManager.shoesSlot.sprite = outfit.shoes;
+
+        // Run scoring
+        int score = CalculateScore(outfit);
+
+        // Show result
+        if (score >= currentContest.scoreToWin)
+        {
+            resultText.text = "You Win!";
+        }
+        else
+        {
+            resultText.text = "You Lose";
+        }
+
+        resultText.gameObject.SetActive(true);
+    }
+
+    public int CalculateScore(OutfitData outfit)
     {
         int score = 0;
 
@@ -25,5 +52,12 @@ public class ContestManager : MonoBehaviour
         // You’ll need a way to map a sprite to its genre
         // e.g., a ClothingDatabase or Dictionary<Sprite, ClothingGenre>
         return ClothingDatabase.instance.GetGenreForSprite(slot.sprite);
+    }
+    
+    IEnumerator ShowResultThenCutscene()
+    {
+        resultText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Bedroom");
     }
 }
