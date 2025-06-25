@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 2067e9d2d3d1209478d324737f642652
+guid: 7dd4959158626904599a6e24f45b32f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4878958823289985490
-    second: bare_base_0
+      213: -8288580596763916947
+    second: default hair_0
+  - first:
+      213: -7887271265911835989
+    second: default hair_1
+  - first:
+      213: 2059427213967306917
+    second: default hair_2
+  - first:
+      213: -891926270621025809
+    second: default hair_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bare_base_0
+      name: default hair_0
       rect:
         serializedVersion: 2
-        x: 285
-        y: 20
-        width: 518
-        height: 1808
+        x: 307
+        y: 929
+        width: 505
+        height: 925
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e26ea00dcc47a4cb0800000000000000
-      internalID: -4878958823289985490
+      spriteID: d6501bdacdb09fc80800000000000000
+      internalID: -8288580596763916947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: default hair_1
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 918
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2fd2c7298ca8290800000000000000
+      internalID: -7887271265911835989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: default hair_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 890
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a03b49c32e849c10800000000000000
+      internalID: 2059427213967306917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: default hair_3
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 878
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe97bc158cd3f93f0800000000000000
+      internalID: -891926270621025809
       vertices: []
       indices: 
       edges: []
@@ -134,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      bare_base_0: -4878958823289985490
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
