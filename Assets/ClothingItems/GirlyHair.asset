@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e6d87dfd3d9c479f3e689ee7fcdb1, type: 3}
+  m_Name: GirlyHair
+  m_EditorClassIdentifier: 
+  category: Hair
+  sprite: {fileID: 1095456523780872183, guid: c9bd544c70c331e47815a7da26abf168, type: 3}
+  genre: 0

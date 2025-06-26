@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class OutfitData : MonoBehaviour
+public class OutfitData
 {
     public Sprite hair;
     public Sprite top;

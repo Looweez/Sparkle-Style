@@ -1,6 +1,5 @@
 using UnityEngine;
 
-public enum ClothingGenre { Girly, Goth, Decora, Streetwear, Casual, Chic, Preppy }
 public class ClothingButton : MonoBehaviour
 {
     public DressUpManager manager;

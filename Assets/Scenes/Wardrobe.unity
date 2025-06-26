@@ -10743,7 +10743,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 976837148}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1682236867}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &976837148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12729,7 +12741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5831a79a3648cc1468fc332a810743e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveButton: {fileID: 0}
   topSlot: {fileID: 1324982042}
   bottomSlot: {fileID: 1704513600}
   shoesSlot: {fileID: 691700496}
@@ -13139,7 +13150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5831a79a3648cc1468fc332a810743e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveButton: {fileID: 976837147}
   topSlot: {fileID: 1324982042}
   bottomSlot: {fileID: 1704513600}
   shoesSlot: {fileID: 691700496}
@@ -18089,6 +18099,14 @@ MonoBehaviour:
   dressUpManager: {fileID: 1243874730}
   exitWardrobeButton: {fileID: 1531862971}
   removeAllButton: {fileID: 2082477429}
+  readyButton: {fileID: 976837147}
+  topSlot: {fileID: 1324982042}
+  bottomSlot: {fileID: 1704513600}
+  shoesSlot: {fileID: 691700496}
+  hairSlot: {fileID: 1612984871}
+  socksSlot: {fileID: 1589943939}
+  outerwearSlot: {fileID: 1060967440}
+  fullbodySlot: {fileID: 1031686904}
 --- !u!1 &1689943854
 GameObject:
   m_ObjectHideFlags: 0

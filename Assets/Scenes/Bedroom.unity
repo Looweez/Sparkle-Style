@@ -1170,6 +1170,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &628664497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628664499}
+  - component: {fileID: 628664498}
+  m_Layer: 0
+  m_Name: PlayerOutfitManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &628664498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628664497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8c0ffe77532634a8aa4294629fd985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &628664499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628664497}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 803.8994, y: 524.15045, z: -0.027085006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &717591297
 GameObject:
   m_ObjectHideFlags: 0
@@ -2221,6 +2265,59 @@ MonoBehaviour:
   dialogueArea: {fileID: 875114998}
   isDialogueActive: 0
   typingSpeed: 0.02
+--- !u!1 &1625199797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1625199799}
+  - component: {fileID: 1625199798}
+  m_Layer: 0
+  m_Name: ClothingDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1625199798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625199797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632f8ee5c5ac3e4439f2cf1963babed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  genre: 0
+  allClothingItems:
+  - {fileID: 11400000, guid: 1b2658f205ff14149a4648824ebce4d8, type: 2}
+  - {fileID: 11400000, guid: 592a94c985afc064f88fcf8308507563, type: 2}
+  - {fileID: 11400000, guid: f03af0a8eb8355a4a91b2a59eff4ab04, type: 2}
+  - {fileID: 11400000, guid: 56ea8cc307fa4b9428d23c294c62d59c, type: 2}
+  - {fileID: 11400000, guid: 240f046af96a33643bdaa3cb57658322, type: 2}
+  - {fileID: 11400000, guid: 376e8a0eb70e4d34192b8db4653875b2, type: 2}
+  - {fileID: 11400000, guid: 8ffa517c2a52eb74ea153cac9dcd4708, type: 2}
+--- !u!4 &1625199799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625199797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 803.8994, y: 524.15045, z: -0.027085006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1790442066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2889,3 +2986,5 @@ SceneRoots:
   - {fileID: 383193856}
   - {fileID: 1020003490}
   - {fileID: 444087597}
+  - {fileID: 628664499}
+  - {fileID: 1625199799}

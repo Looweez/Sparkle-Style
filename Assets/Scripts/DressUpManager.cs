@@ -4,8 +4,6 @@ using UnityEngine.UI;
 public class DressUpManager : MonoBehaviour
 {
     
-    [SerializeField] private Button saveButton;
-    
     public SpriteRenderer topSlot;
     public SpriteRenderer bottomSlot;
     public SpriteRenderer shoesSlot;
@@ -33,7 +31,7 @@ public class DressUpManager : MonoBehaviour
     private void Start()
     {
         ApplyDefaultOutfit();
-        saveButton.onClick.AddListener(OnSaveButtonClicked);
+        
     }
 
     public bool IsWearing(string category, Sprite sprite)
@@ -87,10 +85,7 @@ public class DressUpManager : MonoBehaviour
             fullbodySlot.sprite = null;
         }
         
-        public void OnSaveButtonClicked()
-        {
-            PlayerOutfitManager.instance.SaveOutfit(topSlot.sprite, bottomSlot.sprite, shoesSlot.sprite, fullbodySlot.sprite, outerwearSlot.sprite, socksSlot.sprite, hairSlot.sprite);
-        }
+        
 
     
 }
