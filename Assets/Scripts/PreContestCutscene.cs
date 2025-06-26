@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,11 +12,20 @@ public class PreContestCutscene : MonoBehaviour
     public Dialogue chicDialogue;
     public Dialogue preppyDialogue;
 
+    private bool cutsceneStarted = false;
     void Start()
     {
-        ClothingGenre genre = ContestDataCarrier.instance.selectedContest.requiredGenre;
+        StartCoroutine(BeginCutsceneAfterDelay());
+    }
 
-        Dialogue chosenDialogue = genre switch
+    IEnumerator BeginCutsceneAfterDelay()
+    {
+        yield return new WaitForEndOfFrame(); // delay 1 frame to ensure everything is loaded
+
+        var genre = ContestDataCarrier.instance.selectedContest.requiredGenre;
+        Debug.Log("Genre detected: " + genre);
+
+        Dialogue selectedDialogue = genre switch
         {
             ClothingGenre.Girly => girlyDialogue,
             ClothingGenre.Goth => gothDialogue,
@@ -27,14 +37,23 @@ public class PreContestCutscene : MonoBehaviour
             _ => null
         };
 
-        DialogueManager.instance.StartDialogue(chosenDialogue);
+        if (selectedDialogue != null)
+        {
+            Debug.Log("Starting cutscene dialogue for genre: " + genre);
+            DialogueManager.instance.StartDialogue(selectedDialogue);
+            cutsceneStarted = true;
+        }
+        else
+        {
+            Debug.LogError("No dialogue found for selected genre.");
+        }
     }
 
     void Update()
     {
-        if (!DialogueManager.instance.isDialogueActive)
+        if (cutsceneStarted && !DialogueManager.instance.isDialogueActive)
         {
-            SceneManager.LoadScene("Contest");
+            SceneManager.LoadScene("Contest"); // Load runway/contest scoring scene
         }
     }
 }

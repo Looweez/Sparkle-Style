@@ -5,59 +5,73 @@ using UnityEngine.SceneManagement;
 
 public class ContestManager : MonoBehaviour
 {
-    public ClothingContest currentContest;
-    public DressUpManager dressUpManager;
+    [Header("Character Slots")]
+    public SpriteRenderer topSlot;
+    public SpriteRenderer bottomSlot;
+    public SpriteRenderer shoesSlot;
+    public SpriteRenderer hairSlot;
+    public SpriteRenderer socksSlot;
+    public SpriteRenderer fullbodySlot;
+    public SpriteRenderer outerwearSlot;
+
+    [Header("UI")]
     public TextMeshProUGUI resultText;
+    public float displayDuration = 5f; // seconds before auto-return
 
-    void Start()
+    private void Start()
     {
-        OutfitData outfit = PlayerOutfitManager.instance.GetOutfit();
-        dressUpManager.topSlot.sprite = outfit.top;
-        dressUpManager.bottomSlot.sprite = outfit.bottom;
-        dressUpManager.shoesSlot.sprite = outfit.shoes;
+        // 1. Load and apply the saved outfit
+        var outfit = PlayerOutfitManager.instance.GetOutfit();
+        topSlot.sprite    = outfit.top;
+        bottomSlot.sprite = outfit.bottom;
+        shoesSlot.sprite  = outfit.shoes;
+        hairSlot.sprite = outfit.hair;
+        socksSlot.sprite = outfit.socks;
+        fullbodySlot.sprite = outfit.fullbody;
+        outerwearSlot.sprite = outfit.outerwear;
 
-        // Run scoring
+        // 2. Calculate score
         int score = CalculateScore(outfit);
+        ContestDataCarrier.instance.lastScore = score;
 
-        // Show result
-        if (score >= currentContest.scoreToWin)
-        {
-            resultText.text = "You Win!";
-        }
+        // 3. Display win/lose
+        var contest = ContestDataCarrier.instance.selectedContest;
+        if (score >= contest.scoreToWin)
+            resultText.text = "✨ You Win! ✨";
         else
-        {
-            resultText.text = "You Lose";
-        }
+            resultText.text = "💔 You Lose 💔";
 
         resultText.gameObject.SetActive(true);
+
+        // 4. Auto-return after a delay
+        StartCoroutine(AutoReturn());
     }
 
-    public int CalculateScore(OutfitData outfit)
+    private int CalculateScore(OutfitData outfit)
     {
         int score = 0;
-
-        if (GetGenre(dressUpManager.topSlot) == currentContest.requiredGenre) score += 5;
-        if (GetGenre(dressUpManager.bottomSlot) == currentContest.requiredGenre) score += 5;
-        if (GetGenre(dressUpManager.shoesSlot) == currentContest.requiredGenre) score += 5;
-        if (GetGenre(dressUpManager.hairSlot) == currentContest.requiredGenre) score += 5;
-        if (GetGenre(dressUpManager.outerwearSlot) == currentContest.requiredGenre) score += 5;
-        if (GetGenre(dressUpManager.fullbodySlot) == currentContest.requiredGenre) score += 5;
-        if (GetGenre(dressUpManager.socksSlot) == currentContest.requiredGenre) score += 5;
+        var required = ContestDataCarrier.instance.selectedContest.requiredGenre;
+        if (ClothingDatabase.instance.GetGenreForSprite(outfit.top)    == required) score += 5;
+        if (ClothingDatabase.instance.GetGenreForSprite(outfit.bottom) == required) score += 5;
+        if (ClothingDatabase.instance.GetGenreForSprite(outfit.shoes)  == required) score += 5;
+        if (ClothingDatabase.instance.GetGenreForSprite(outfit.hair)  == required) score += 5;
+        if (ClothingDatabase.instance.GetGenreForSprite(outfit.socks)  == required) score += 5;
+        if (ClothingDatabase.instance.GetGenreForSprite(outfit.fullbody)  == required) score += 5;
+        if (ClothingDatabase.instance.GetGenreForSprite(outfit.outerwear)  == required) score += 5;
         
         return score;
     }
 
-    private ClothingGenre? GetGenre(SpriteRenderer slot)
+    private IEnumerator AutoReturn()
     {
-        // You’ll need a way to map a sprite to its genre
-        // e.g., a ClothingDatabase or Dictionary<Sprite, ClothingGenre>
-        return ClothingDatabase.instance.GetGenreForSprite(slot.sprite);
-    }
-    
-    IEnumerator ShowResultThenCutscene()
-    {
-        resultText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(displayDuration);
         SceneManager.LoadScene("Bedroom");
     }
+
+    // Optional: call this from a “Continue” button instead of auto-return
+    public void OnContinueButton()
+    {
+        SceneManager.LoadScene("Bedroom");
+    }
+    
 }

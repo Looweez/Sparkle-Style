@@ -10674,7 +10674,7 @@ GameObject:
   - component: {fileID: 976837148}
   - component: {fileID: 976837147}
   m_Layer: 5
-  m_Name: ConfirmButton
+  m_Name: SaveButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12729,6 +12729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5831a79a3648cc1468fc332a810743e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  saveButton: {fileID: 0}
   topSlot: {fileID: 1324982042}
   bottomSlot: {fileID: 1704513600}
   shoesSlot: {fileID: 691700496}
@@ -13138,6 +13139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5831a79a3648cc1468fc332a810743e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  saveButton: {fileID: 976837147}
   topSlot: {fileID: 1324982042}
   bottomSlot: {fileID: 1704513600}
   shoesSlot: {fileID: 691700496}

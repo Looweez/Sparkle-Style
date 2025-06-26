@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class ContestSelectButton : MonoBehaviour
 {
-    public ClothingContest contestToLoad; // Drag in via Inspector
+    public ClothingContest contestToLoad;
 
     public void OnClick()
     {
         ContestDataCarrier.instance.selectedContest = contestToLoad;
-        SceneManager.LoadScene("ContestCutscene");
+        SceneManager.LoadScene("ContestCutscene"); // whatever your cutscene scene is named
     }
 }

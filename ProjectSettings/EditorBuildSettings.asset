@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Computer.unity
     guid: 625c969532ae2394cb999996cdf52eaf
+  - enabled: 1
+    path: Assets/Scenes/ContestCutscene.unity
+    guid: 1818d063639a29549b1cfebe4114b899
+  - enabled: 1
+    path: Assets/Scenes/Contest.unity
+    guid: 6d7bd7215dff5dd49bb591cc6ed93c00
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

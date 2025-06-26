@@ -306,7 +306,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 616734825}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 616734827}
+        m_TargetAssemblyTypeName: ContestSelectButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &616734825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,52 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e83258005e8954408dcf1f663c925dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contestToLoad: {fileID: 0}
---- !u!1 &888868992
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 888868994}
-  - component: {fileID: 888868993}
-  m_Layer: 0
-  m_Name: ContestDataCarrier
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &888868993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888868992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60332c34b3334be42bb6484fe6dcef6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedContest: {fileID: 0}
---- !u!4 &888868994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888868992}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 912.2261, y: 622.3708, z: -1.5590786}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  contestToLoad: {fileID: 11400000, guid: 478acd0502036d8468a41cfd7a04b3c8, type: 2}
 --- !u!1 &932249759
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,7 +956,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1b49e8f812b314a45ab0246858b88497, type: 3}
   m_Resource: {fileID: 8300000, guid: 1b49e8f812b314a45ab0246858b88497, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -1176,4 +1143,3 @@ SceneRoots:
   - {fileID: 276626584}
   - {fileID: 2100054714}
   - {fileID: 2066476340}
-  - {fileID: 888868994}

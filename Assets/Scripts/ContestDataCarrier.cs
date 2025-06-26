@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class ContestDataCarrier : MonoBehaviour
 {
+    public int lastScore;
+
     public static ContestDataCarrier instance;
 
     public ClothingContest selectedContest;
-    public int lastScore;
 
     private void Awake()
     {
-        if (instance == null)
+        if (instance != null && instance != this)
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject); // survives scene loading
+            Destroy(gameObject);
+            return;
         }
-        else
-        {
-            Destroy(gameObject); // only one allowed
-        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject); // keeps it alive between scenes
     }
 }
