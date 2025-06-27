@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e6d87dfd3d9c479f3e689ee7fcdb1, type: 3}
+  m_Name: DecoraShoes
+  m_EditorClassIdentifier: 
+  category: Shoes
+  sprite: {fileID: -8757975197599098644, guid: 3833970b9357ef74b9f7f0ef2224aa8c, type: 3}
+  genre: 2

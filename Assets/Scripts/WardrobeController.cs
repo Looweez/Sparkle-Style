@@ -10,6 +10,7 @@ public class WardrobeController : MonoBehaviour
     [SerializeField] private Button exitWardrobeButton;
     [SerializeField] private Button removeAllButton;
     [SerializeField] private Button readyButton;
+    [SerializeField] private Button wardrobeTutorialButton;
     
     [SerializeField] private SpriteRenderer topSlot;
     [SerializeField] private SpriteRenderer bottomSlot;
@@ -19,11 +20,14 @@ public class WardrobeController : MonoBehaviour
     [SerializeField] private SpriteRenderer outerwearSlot;
     [SerializeField] private SpriteRenderer fullbodySlot;
     
+    public Dialogue wardrobeTutorialDialogue;
+    
     void Start()
     {
         exitWardrobeButton.onClick.AddListener(OnExitWardrobeButtonClicked);
         removeAllButton.onClick.AddListener(OnRemoveAllButtonClicked);
         readyButton.onClick.AddListener(OnReadyClicked);
+        wardrobeTutorialButton.onClick.AddListener(OnTutorialButtonClicked);
     }
 
     private void OnExitWardrobeButtonClicked()
@@ -51,6 +55,15 @@ public class WardrobeController : MonoBehaviour
     {
         PlayerOutfitManager.instance.SaveOutfit(topSlot.sprite, bottomSlot.sprite, shoesSlot.sprite, hairSlot.sprite, socksSlot.sprite, outerwearSlot.sprite, fullbodySlot.sprite);
         SceneManager.LoadScene("Bedroom");
+    }
+    
+    private void OnTutorialButtonClicked()
+    {
+        wardrobeTutorialButton.interactable = false;
+        if (wardrobeTutorialButton != null)
+        {
+            DialogueManager.instance.StartDialogue(wardrobeTutorialDialogue);
+        }
     }
     
 }

@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ContestManager : MonoBehaviour
 {
+    
+    [Header("Sound Effects")]
+    public AudioSource cheerAudioSource;
+    public AudioSource shutterAudioSource;
+    
+    
     [Header("Character Slots")]
     public SpriteRenderer topSlot;
     public SpriteRenderer bottomSlot;
@@ -15,8 +21,13 @@ public class ContestManager : MonoBehaviour
     public SpriteRenderer outerwearSlot;
 
     [Header("UI")]
+    public TextMeshProUGUI scoreText;
     public TextMeshProUGUI resultText;
-    public float displayDuration = 5f; // seconds before auto-return
+    public float displayDuration = 5f;
+    public float suspenseDelay = 2f;
+
+    private int finalScore;
+    
 
     private void Start()
     {
@@ -35,8 +46,7 @@ public class ContestManager : MonoBehaviour
             Debug.LogError("PlayerOutfitManager returned a null outfit!");
             return;
         }
-
-        // Continue with applying the sprites and scoring
+        
         topSlot.sprite    = outfit.top;
         bottomSlot.sprite = outfit.bottom;
         shoesSlot.sprite  = outfit.shoes;
@@ -45,14 +55,40 @@ public class ContestManager : MonoBehaviour
         fullbodySlot.sprite = outfit.fullbody;
         outerwearSlot.sprite = outfit.outerwear;
 
-        int score = CalculateScore(outfit);
-        ContestDataCarrier.instance.lastScore = score;
+        finalScore = CalculateScore(outfit);
+        ContestDataCarrier.instance.lastScore = finalScore;
+        
+        StartCoroutine(ScoreRevealRoutine());
+    }
+    
+    private IEnumerator ScoreRevealRoutine()
+    {
+        scoreText.gameObject.SetActive(true);
+        scoreText.text = "Scoring...";
+        yield return new WaitForSeconds(suspenseDelay);
 
+        //fake counting animation
+        int currentScore = 0;
+        while (currentScore < finalScore)
+        {
+            currentScore++;
+            scoreText.text = "Score: " + currentScore;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        
         var contest = ContestDataCarrier.instance.selectedContest;
-        resultText.text = (score >= contest.scoreToWin) ? " You Win! " : " You Lose ";
+        if (finalScore >= contest.scoreToWin)
+        {
+            resultText.text = " You Win! ";
+            cheerAudioSource.PlayDelayed(1.0f);
+            shutterAudioSource.PlayDelayed(1.0f);
+        }
+        else
+        {
+            resultText.text = " You Lose ";
+        }
         resultText.gameObject.SetActive(true);
-
-        StartCoroutine(AutoReturn());
     }
     
     private int CalculateScore(OutfitData outfit)
@@ -96,14 +132,16 @@ public class ContestManager : MonoBehaviour
         return score;
         
     }
-
-    private IEnumerator AutoReturn()
+    
+    private int ScoreSlot(Sprite sprite, string label, ClothingGenre required)
     {
-        yield return new WaitForSeconds(displayDuration);
-        SceneManager.LoadScene("Bedroom");
+        if (sprite == null || ClothingDatabase.instance == null) return 0;
+        var genre = ClothingDatabase.instance.GetGenreForSprite(sprite);
+        Debug.Log(label + " genre: " + genre);
+        return genre == required ? 5 : 0;
     }
-
-    // Optional: call this from a “Continue” button instead of auto-return
+    
+    
     public void OnContinueButton()
     {
         SceneManager.LoadScene("Bedroom");
