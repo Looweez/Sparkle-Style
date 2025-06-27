@@ -542,29 +542,31 @@ MonoBehaviour:
     dialogueLines:
     - character:
         name: Mimi
-        icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: Hello ! im ur cat!
+        icon: {fileID: -4891008283086797561, guid: f059e25c6147b114bb80b415c6dd70f3, type: 3}
+      line: Your new room is pretty nice !
     - character:
         name: Mimi
-        icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: Welcome to your bedroom. This is where you can access all your clothes,
-        crafting, and contests !
+        icon: {fileID: -4891008283086797561, guid: f059e25c6147b114bb80b415c6dd70f3, type: 3}
+      line: If you want to become a better fashionista than your rival, you better
+        enter some fashion contests!
     - character:
         name: Mimi
-        icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: Click your laptop to see what contests are currently happening.
+        icon: {fileID: -4891008283086797561, guid: f059e25c6147b114bb80b415c6dd70f3, type: 3}
+      line: Click on your laptop to see what contests are currently happening.
     - character:
         name: Mimi
-        icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: Click your wardrobe to dress up and see all your clothes.
+        icon: {fileID: -4891008283086797561, guid: f059e25c6147b114bb80b415c6dd70f3, type: 3}
+      line: If you want to enter a contest, make sure to first dress up in the wardrobe
+        !
     - character:
         name: Mimi
-        icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: Or, click the desk on the right to craft new clothes!
+        icon: {fileID: -4891008283086797561, guid: f059e25c6147b114bb80b415c6dd70f3, type: 3}
+      line: Try to keep your outfit on theme with the contest. Outfits that match
+        the theme have a better chance at winning.
     - character:
         name: Mimi
-        icon: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
-      line: If you'd like to see the tutorial again, click on me in the corner! ^w^
+        icon: {fileID: -4891008283086797561, guid: f059e25c6147b114bb80b415c6dd70f3, type: 3}
+      line: You can click on me at any time if you aren't sure what to do ! :3
 --- !u!1 &383193853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,15 +2930,15 @@ RectTransform:
   m_GameObject: {fileID: 2126004060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1551495315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: -433, y: 57}
+  m_SizeDelta: {x: 200, y: 245.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126004062
 MonoBehaviour:
@@ -2958,7 +2960,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6276157342014717536, guid: 9e99716b51665624a86d9fbc73decfa5, type: 3}
+  m_Sprite: {fileID: -4891008283086797561, guid: f059e25c6147b114bb80b415c6dd70f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
