@@ -9,6 +9,7 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private Button startGameButton;
     [SerializeField] private Button exitGameButton;
     
+    
     void Start()
     {
         startGameButton.onClick.AddListener(OnStartButtonClicked);
